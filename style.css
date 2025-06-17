@@ -1,38 +1,137 @@
 body {
-  font-family: Arial, sans-serif;
-  max-width: 600px;
-  margin: 50px auto;
-  padding: 0 20px;
-  background: #f9f9f9;
-  color: #333;
+ padding: 0px;
+ margin: 0px;
+ font-family: Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;
+ font-size: 16px;
+ background-color: #fff;
+ color: #000;
+ -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-h1 {
-  text-align: center;
-  color: #007acc;
+
+main{
+ max-width: 800px;
+ margin: 0 auto;
+ padding: 1em;
 }
 
-ul {
-  list-style: none;
-  padding-left: 0;
+
+img.icon {
+ width: 1em;
+ height: 1em;
 }
 
-li {
-  background: #fff;
-  margin: 10px 0;
-  padding: 15px 20px;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  transition: background 0.3s;
+img.i {
+ width: 32px;
+ height: 32px;
+ margin-right: 0.5em;
+ vertical-align: middle;
 }
 
-li:hover {
-  background: #e0f0ff;
+.lock-scroll {
+    overflow: hidden;
 }
 
-a {
-  text-decoration: none;
-  color: #007acc;
-  font-weight: bold;
-  font-size: 1.1em;
+main a
+{
+ text-decoration: none;
+ color: #6178a7;
+}
+
+main a:active
+{
+ text-decoration: none;
+ color: #6178a7;
+}
+
+main a:visited
+{
+ text-decoration: none;
+ color: #6178a7;
+}
+
+main a:hover
+{
+ text-decoration: underline;
+}
+
+.footer a
+{
+ text-decoration: none;
+ color: #6178a7;
+}
+
+.footer a:active
+{
+ text-decoration: none;
+ color: #6178a7;
+}
+
+.footer a:visited
+{
+ text-decoration: none;
+ color: #6178a7;
+}
+
+.footer a:hover
+{
+ text-decoration: underline;
+}
+
+img.dl_img {
+ width: 100%;
+ max-width: 256px;
+ height: auto;
+}
+
+img.ss {
+ width: 100%;
+ max-width: 184px;
+ height: auto;
+ margin: 1px;
+}
+
+img.s {
+ vertical-align: top;
+ border-style: none;
+}
+
+div.ss {
+ line-height: 0px;
+ margin-top: 1em;
+ margin-bottom: 1em;
+}
+
+div.titlebar {
+ background-color: #dde9f8;
+ padding: 0.5em;
+ padding-left: 1em;
+ padding-right: 1em;
+ border-radius: 1em; 
+ margin-bottom: 1em;
+}
+
+
+img.item_icon {
+ max-width: 192px;
+ width: 100%;
+ height: auto;
+}
+
+img.item_s_icon {
+ width: 48px;
+ height: 48px;
+}
+
+a.lb {
+ display: block;
+ padding: 0.5em;
+ background-color: #f0f8f9;
+ border-radius: 1.125em;
+ border-style: solid;
+ border-color: #dde9f8;
+ border-width: 1px;
+ margin-bottom: 0.5em;
+ padding-left: 1em;
+ padding-right: 1em;
 }
